@@ -12,12 +12,14 @@ package entidad;
 public class Empleado {
     private String cedula, nombre, apellido;
     private int edad;
+    private String telefono;
 
-    public Empleado(String cedula, String nombre, String apellido, int edad) {
+    public Empleado(String cedula, String nombre, String apellido, int edad, String telefono) {
         this.cedula = cedula;
         this.nombre = nombre;
         this.apellido = apellido;
         this.edad = edad;
+        this.telefono = telefono;
     }
 
     public String getCedula() {
